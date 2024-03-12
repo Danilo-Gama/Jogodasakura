@@ -1,8 +1,8 @@
-<h1> Bem vindo ao Jogo do Número Secreto! </h1> 
+<h1> Bem vindo ao Jogo da SAKURA! </h1> 
 Neste jogo, um número secreto entre 1 e 100 é gerado e seu desafio é descobrir qual é este número. Mas calma! A cada chute o jogo te fornece dicas, revelando se o número secreto é maior ou menor que o chute. Descubra o número secreto com o mínimo de chutes possível! Desafie seus amigos a superá-lo!
 
 <h2> Imagem Final do Projeto </h2>
-![Imagem Home Page] (sakura2.0.png)
+![Imagem Home page](sakura2.0.png)
 
 <h2> ⚙ Tecnologias Utilizadas </h2>
 <p> HTML5 e CSS3 para a estrutura e aparência do jogo.
