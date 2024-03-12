@@ -58,7 +58,7 @@ body::before {
     background: #3deb2e;
     padding: 16px 24px;
     width: 100%;
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 700;
     border: none;
     margin-top: 2rem;
@@ -80,19 +80,19 @@ body::before {
     border: none;
     color: #1875E8;
     padding: 2rem;
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 700;
     font-family: 'Inter', sans-serif;
 }
 
 .container__botoes {
     display: flex;
-    gap: 2em;
+    gap: 2rem;
 }
 
 h1 {
     font-family: 'Chakra Petch', sans-serif;
-    font-size: 50px;
+    font-size: 3.12rem;
     padding-bottom: 2rem;
 }
 
@@ -102,7 +102,7 @@ button {
 }
 
 .texto__paragrafo {
-    font-size: 30px;
+    font-size: 1.87rem;
     font-weight: 400;
 }
 
@@ -113,25 +113,27 @@ button:disabled {
 @media screen and (max-width: 1250px) {
 
     h1 {
-        font-size: 50px;
+        font-size: 3.12rem;
     }
 
     .container__botao {
-        font-size: 16px;
+        font-size: 1rem;
     }
 
 
     .texto__paragrafo {
-        font-size: 24px;
+        font-size: 1.5rem;
     }
 
     .container__imagem-pessoa {
-        display: none;
+        display: flex;
+        padding: 2%;
     }
 
     .container__conteudo {
-        display: block;
-        position: inherit;
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 5%;
     }
 
     .container__informacoes {

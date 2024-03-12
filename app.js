@@ -2,6 +2,7 @@ let listasNumerosSorteados = [];
 let numeroLimite = 10;
 let numeroSecreto = gerarNumeroAleatorio();
 let tentativas = 1;
+const figura = document.getElementById("figura");
 
 function exibirTextoNaTela(tag, texto) {
     let campo = document.querySelector(tag);
@@ -38,6 +39,7 @@ function verificarChute() {
        
     if (chute == numeroSecreto) {
         exibirTextoNaTela('h1', 'ACERTOU!');
+        figura.src= "./img/acerto.png";
         let palavraTentativa = tentativas > 1 ? 'tentativas' : 'tentativa';
         let mensagemTentativas = `Você descobriu o número secreto com ${tentativas} ${palavraTentativa}!`
         exibirTextoNaTela('p', mensagemTentativas);
@@ -63,6 +65,7 @@ function limparCampo() {
 function reiniciarJogo() {
     numeroSecreto = gerarNumeroAleatorio();
     limparCampo();
+    figura.src= "./img/iaa.png";
     tentativas = 1;
     exibirMensagemInicial();
     document.getElementById('reiniciar').setAttribute('disabled', true);
