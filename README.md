@@ -1,5 +1,5 @@
 <h1> Bem vindo ao Jogo da SAKURA! </h1> 
-Neste jogo, um número secreto entre 1 e 10 é gerado e seu desafio é descobrir qual é este número. Mas calma! A cada chute o jogo te fornece dicas, revelando se o número secreto é maior ou menor que o chute. Descubra o número secreto com o mínimo de chutes possível! Desafie seus amigos a superá-lo!
+Neste jogo, um número secreto entre 1 e 10 é gerado aleatoriamente e seu desafio é descobrir qual é este número. Mas calma! A cada chute o jogo te fornece dicas, revelando se o número secreto é maior ou menor que o chute. Descubra o número secreto com o mínimo de chutes possível! Desafie seus amigos a superá-lo!
 
 <h2> Imagem Final do Projeto </h2>
 
@@ -24,7 +24,7 @@ O que proporciona ao usuário uma experiência auditiva e imersiva que faz jus a
 <h2>🕹️ Como Jogar ?</h2>
 <p> Clone este repositório para sua máquina local.
 Abra o arquivo index.html em seu navegador web.<p>
-Ou acesse https://oracle-numero-secreto.vercel.app/
+Ou acesse https://jogodasakura.vercel.app/
 <p> Divirta-se jogando! <p>
 
 <h2>🤝🏻Contribuições são bem-vindas! </h2> 
