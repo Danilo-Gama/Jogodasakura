@@ -27,5 +27,15 @@ Abra o arquivo index.html em seu navegador web.<p>
 Ou acesse https://jogodasakura.vercel.app/
 <p> Divirta-se jogando! <p>
 
+## Autor
+
+- Nome: Danilo Gama
+- LinkedIn: [Danilo Gama-dev](www.linkedin.com/in/danilogama-dev)
+- GitHub: [Danilo Gama-dev](https://github.com/Danilo-Gama)
+
+## Licença
+
+Este projeto está licenciado sob a licença [MIT](LICENSE).
+
 <h2>🤝🏻Contribuições são bem-vindas! </h2> 
 Se você deseja melhorar este jogo, adicionar novos recursos ou corrigir problemas, sinta-se à vontade para abrir um pull request.
